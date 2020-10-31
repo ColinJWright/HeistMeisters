@@ -15,7 +15,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Section 4 Heist Meisters"
+config/name="Heist Meisters"
 config/icon="res://icon.png"
 
 [rendering]
