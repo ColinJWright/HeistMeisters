@@ -7,7 +7,6 @@
 height = 25.9921
 
 [node name="TemplateCharacter" type="KinematicBody2D"]
-position = Vector2( -0.33371, -1.00114 )
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true
@@ -17,6 +16,5 @@ __meta__ = {
 texture = ExtResource( 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
 position = Vector2( -10.0113, 0.667427 )
 shape = SubResource( 1 )
