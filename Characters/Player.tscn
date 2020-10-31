@@ -11,5 +11,4 @@ script = ExtResource( 1 )
 texture = ExtResource( 3 )
 
 [node name="CollisionShape2D" parent="." index="1"]
-visible = true
 position = Vector2( -1.66854, -0.667412 )
