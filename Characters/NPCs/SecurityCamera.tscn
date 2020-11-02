@@ -51,6 +51,7 @@ shape = SubResource( 1 )
 disabled = true
 
 [node name="Torch" parent="SecurityCameraBody" instance=ExtResource( 3 )]
+position = Vector2( 5, 0 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="SecurityCameraBody"]
 autoplay = "CameraRotation"
