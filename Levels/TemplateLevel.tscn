@@ -5,7 +5,9 @@
 
 [node name="TemplateLevel" type="Node2D"]
 
-[node name="TileMap" type="TileMap" parent="."]
+[node name="Navigation2D" type="Navigation2D" parent="."]
+
+[node name="TileMap" type="TileMap" parent="Navigation2D"]
 tile_set = ExtResource( 1 )
 collision_layer = 2
 collision_mask = 5
@@ -25,5 +27,3 @@ color = Color( 0.231373, 0.203922, 0.203922, 1 )
 [node name="SecurityCameras" type="Node" parent="."]
 
 [node name="Guards" type="Node" parent="."]
-
-[node name="Navigation2D" type="Navigation2D" parent="."]
