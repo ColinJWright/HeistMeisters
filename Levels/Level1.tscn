@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Levels/TemplateLevel.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Characters/NPCs/SecurityCamera.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Characters/NPCs/Guard.tscn" type="PackedScene" id=3]
 
 [node name="Level1" instance=ExtResource( 1 )]
 
@@ -17,3 +18,7 @@ position = Vector2( 1039.92, 736.342 )
 [node name="SecurityCamera3" parent="SecurityCameras" index="2" instance=ExtResource( 2 )]
 position = Vector2( 512.904, 1263.65 )
 rotation = -1.5708
+
+[node name="Guard" parent="Guards" index="0" instance=ExtResource( 3 )]
+position = Vector2( 310, -278 )
+rotation = 1.5708
