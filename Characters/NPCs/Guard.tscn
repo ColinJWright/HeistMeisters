@@ -14,3 +14,8 @@ offset = Vector2( -10, 0 )
 
 [node name="Torch" parent="." index="3" instance=ExtResource( 3 )]
 position = Vector2( 5, 0 )
+
+[node name="Timer" type="Timer" parent="." index="4"]
+wait_time = 3.0
+one_shot = true
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
