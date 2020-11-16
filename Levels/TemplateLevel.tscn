@@ -316,3 +316,5 @@ current = true
 [node name="SecurityCameras" type="Node" parent="."]
 
 [node name="Guards" type="Node" parent="."]
+
+[node name="Doors" type="Node" parent="."]
