@@ -300,6 +300,8 @@ tile_data = PoolIntArray( 65537, 2, 0, 65538, 2, 2, 65539, 2, 2, 65540, 2, 2, 65
 
 [node name="Furniture" type="TileMap" parent="Navigation2D"]
 tile_set = SubResource( 21 )
+collision_layer = 2
+collision_mask = 5
 format = 1
 
 [node name="Destinations" type="Node" parent="Navigation2D"]
@@ -320,3 +322,5 @@ current = true
 [node name="Doors" type="Node" parent="."]
 
 [node name="LockedDoors" type="Node" parent="."]
+
+[node name="Computers" type="Node" parent="."]
