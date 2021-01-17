@@ -17,3 +17,7 @@ position = Vector2( -1.90477, -0.273688 )
 
 [node name="LightOccluder2D" parent="." index="2"]
 position = Vector2( 8.10348, -0.0443802 )
+
+[node name="Light2D" type="Light2D" parent="." index="3"]
+texture = ExtResource( 3 )
+energy = 0.5
