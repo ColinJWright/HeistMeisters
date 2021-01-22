@@ -62,7 +62,7 @@ position = Vector2( 512.904, 1263.65 )
 rotation = -1.5708
 
 [node name="Guard" parent="Guards" index="0" instance=ExtResource( 3 )]
-position = Vector2( 310, -278 )
+position = Vector2( 311.414, -263.858 )
 rotation = 1.5708
 collision_mask = 2147483651
 
@@ -101,4 +101,10 @@ rotation = 1.5708
 position = Vector2( 287.42, 152.096 )
 rotation = 1.58288
 lock_group = "1"
+
+[node name="Exit" parent="." index="10"]
+margin_left = 581.242
+margin_top = -313.955
+margin_right = 781.242
+margin_bottom = -213.955
 [connection signal="combination" from="Computers/Computer" to="LockedDoors/LockedDoor" method="_on_Computer_combination"]
