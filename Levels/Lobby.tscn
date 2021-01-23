@@ -106,8 +106,8 @@ margin_right = 376.0
 margin_bottom = 328.0
 
 [node name="GridContainer" type="GridContainer" parent="CenterContainer/Background/VBoxContainer/CenterContainer"]
-margin_left = 56.0
-margin_right = 320.0
+margin_left = 62.0
+margin_right = 314.0
 margin_bottom = 94.0
 custom_constants/vseparation = 30
 columns = 2
@@ -121,10 +121,10 @@ align = 0
 [node name="StartButtonText" type="Label" parent="CenterContainer/Background/VBoxContainer/CenterContainer/GridContainer"]
 margin_left = 36.0
 margin_top = 2.0
-margin_right = 264.0
+margin_right = 252.0
 margin_bottom = 29.0
 custom_colors/font_color = Color( 0, 0, 0, 1 )
-text = "Start Mission"
+text = "Begin Mission"
 
 [node name="QuitButton" type="Button" parent="CenterContainer/Background/VBoxContainer/CenterContainer/GridContainer"]
 margin_top = 62.0
@@ -136,7 +136,7 @@ align = 0
 [node name="QuitButtonText" type="Label" parent="CenterContainer/Background/VBoxContainer/CenterContainer/GridContainer"]
 margin_left = 36.0
 margin_top = 64.0
-margin_right = 264.0
+margin_right = 252.0
 margin_bottom = 91.0
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "Quit Game"
