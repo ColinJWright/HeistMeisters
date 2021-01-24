@@ -21,11 +21,9 @@ margin_bottom = 400.0
 [node name="Label" type="Label" parent="." index="5" groups=[
 "labels",
 ]]
-visible = false
-margin_left = -46.2946
-margin_top = -52.9167
-margin_right = 33.7054
-margin_bottom = -25.9167
+margin_top = -10.0
+margin_right = 80.0
+margin_bottom = 17.0
 theme = ExtResource( 5 )
 custom_colors/font_color = Color( 0.156863, 1, 0, 1 )
 text = "Test"

@@ -24,5 +24,12 @@ func _on_NightVisionObjective_body_entered(body):
 	get_tree().call_group("Interface", "DARK_mode")
 	update_pointer_position(3)
 
-func _on_BriefcaseObjective_body_entered(body):
+func _on_BoxObjective_body_entered(body):
 	update_pointer_position(4)
+
+func _on_BriefcaseObjective_body_entered(body):
+	update_pointer_position(5)
+
+
+
+
