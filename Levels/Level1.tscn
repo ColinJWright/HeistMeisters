@@ -37,7 +37,7 @@ position = Vector2( 863.182, 616.191 )
 [node name="Loot" type="Node" parent="." index="3"]
 
 [node name="Briefcase" parent="Loot" index="0" instance=ExtResource( 7 )]
-position = Vector2( 165.463, 285.671 )
+position = Vector2( 909.906, -278.013 )
 
 [node name="SecurityCamera" parent="SecurityCameras" index="0" instance=ExtResource( 2 )]
 position = Vector2( 143.257, 519.906 )
