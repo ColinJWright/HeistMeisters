@@ -145,7 +145,7 @@ Please proceed to the indicated marker using the WASD keys."
 message = "Most doors can be opened by clicking on them. This one needs a code from the computer on the wall. Click on the computer then click on the door to input the code."
 
 [node name="NightVisionMessage" parent="ObjectiveMessages" index="2" instance=ExtResource( 9 )]
-message = "Press Space to Activate or Deactivate your Night Vision goggles."
+message = "Press Space to Activate or Deactivate your Night Vision goggles. With it activated, you won't be able to see where Security Cameras or Guards are looking."
 
 [node name="BoxMessage" parent="ObjectiveMessages" index="3" instance=ExtResource( 9 )]
 message = "You can also press [E] to hide in a box. Be careful though as you can't move as fast and only have limited time (and boxes)."
