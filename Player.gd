@@ -12,7 +12,7 @@ const BOX_OCCLUDER = "res://Characters/BoxOccluder.tres"
 var velocity_multiplier = 1
 
 var disguised = false
-export var disguise_slowdown = 0.25
+export var disguise_slowdown = 0.5
 export var disuise_duration = 5
 export var number_of_disguises = 3
 

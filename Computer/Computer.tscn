@@ -29,10 +29,12 @@ shape = SubResource( 1 )
 [node name="ComputerPopup" parent="CanvasLayer" instance=ExtResource( 3 )]
 
 [node name="Light2D" type="Light2D" parent="."]
-position = Vector2( 32, 0 )
+position = Vector2( 32, -0.750014 )
 rotation = 1.5708
+scale = Vector2( 0.695312, 1 )
 enabled = false
 texture = ExtResource( 4 )
+energy = 0.75
 
 [node name="Label" type="Label" parent="." groups=[
 "labels",
